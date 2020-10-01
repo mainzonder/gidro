@@ -7,6 +7,8 @@ $(function () {
       '<button class="banner-section__slider-btn banner-section__slider-btnnext"><img src="images/arrow-right.svg" alt=""/></button>',
   });
 
+
+
   $('.tab').on('click', function (e) {
     e.preventDefault();
 
@@ -16,6 +18,9 @@ $(function () {
     $(this).addClass('tab--active');
     $($(this).attr('href')).addClass('tabs-content--active');
   });
+
+
+
 
   $('.product-item__favorite').on('click', function () {
     $(this).toggleClass('product-item__favorite--active');
